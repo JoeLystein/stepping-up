@@ -18,8 +18,8 @@ function mynavbar() {
 		<Bars />
 
 		<NavMenu>
-		<NavLink to='/about' activeStyle>
-			About
+		<NavLink to='/Home' activeStyle>
+			Home
 		</NavLink>
 		<NavLink to='/events' activeStyle>
 			Events
