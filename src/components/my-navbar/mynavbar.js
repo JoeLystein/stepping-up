@@ -7,6 +7,7 @@ import {
     NavBtn,
     NavBtnLink,
     } from '../my-navbar/NavbarElements'
+	import aa from 
 
 function mynavbar() {
     return (
@@ -33,7 +34,7 @@ function mynavbar() {
 		<NavLink to='/video' activeStyle>
 			Videos
 		</NavLink>
-		<NavLink to='/sign-up' activeStyle>
+		<NavLink to='/signup' activeStyle>
 			Sign Up
 		</NavLink>
         </NavMenu>
