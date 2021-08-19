@@ -18,7 +18,7 @@ function mynavbar() {
 		<Bars />
 
 		<NavMenu>
-		<NavLink to='/Home' activeStyle>
+		<NavLink to='/home' activeStyle>
 			Home
 		</NavLink>
 		<NavLink to='/events' activeStyle>
@@ -30,8 +30,8 @@ function mynavbar() {
 		<NavLink to='/team' activeStyle>
 			Teams
 		</NavLink>
-		<NavLink to='/blogs' activeStyle>
-			Blogs
+		<NavLink to='/video' activeStyle>
+			Videos
 		</NavLink>
 		<NavLink to='/sign-up' activeStyle>
 			Sign Up

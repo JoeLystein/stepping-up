@@ -5,8 +5,8 @@ import styled from 'styled-components';
 export const img= styled.img`
 `; 
 export const Nav = styled.nav`
-// background: #63D471;
-background: black; 
+background: #63D471;
+// background: black; 
 height: 85px;
 display: flex;
 justify-content: space-between;
