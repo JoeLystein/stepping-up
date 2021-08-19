@@ -7,7 +7,6 @@ import {
     NavBtn,
     NavBtnLink,
     } from '../my-navbar/NavbarElements'
-	import aa from 
 
 function mynavbar() {
     return (
