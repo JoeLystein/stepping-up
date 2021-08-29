@@ -5,13 +5,21 @@ import styled from 'styled-components';
 export const img= styled.img`
 `; 
 export const Nav = styled.nav`
-background: #63D471;
-// background: black; 
-height: 85px;
+// background: #63D471;
+background: black; 
+// height: 85px;
+height: 50px; 
+width:992px;
 display: flex;
 justify-content: space-between;
+margin-top:-10px;
+margin-left:-10px; 
+margin-right:-10px; 
 padding: 0.2rem calc((100vw - 1000px) / 2);
 z-index: 12;
+position:fixed;
+// position:sticky;
+
 /* Third Nav */
 /* justify-content: flex-start; */
 `;
@@ -26,13 +34,15 @@ padding: 0 1rem;
 height: 100%;
 cursor: pointer;
 &.active {
-	color: #000000;
+	// color: #000000;
+	color:red;
 }
 `;
 
 export const Bars = styled(FaBars)`
 display: none;
 color: #808080;
+// color:red; 
 @media screen and (max-width: 768px) {
 	display: block;
 	position: absolute;
@@ -89,3 +99,20 @@ margin-left: 24px;
 }
 `;
 
+export const Footer = styled.nav`
+// background: #63D471;
+background: black; 
+height: 50px; 
+display: flex;
+justify-content: space-between;
+margin-top:100px;
+margin-left:-10px; 
+// margin-right:-10px; 
+padding: 0.2rem calc((100vw - 1000px) / 2);
+position:fixed; 
+width:100%;
+bottom:0px; 
+z-index: 12;
+/* Third Nav */
+/* justify-content: flex-start; */
+`;

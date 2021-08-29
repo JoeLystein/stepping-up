@@ -45,7 +45,4 @@ function mynavbar() {
         
     )
 }
-
-export default mynavbar
-
-
+export default mynavbar; 

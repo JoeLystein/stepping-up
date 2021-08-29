@@ -1,5 +1,5 @@
 import React from 'react'
-import Photo1 from '../../assets/photo1.jpg'; 
+import Photo1 from '../assets/photo1.jpg'; 
 
 function Events() {
     return (

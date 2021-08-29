@@ -1,13 +1,14 @@
 import './App.css';
 import Mynavbar from '../src/components/my-navbar/mynavbar';
-import Home from './components/my-navbar/Home'; 
-import Event from './components/my-navbar/Events';
-import Annual from './components/my-navbar/Annual';
+import Home from './Pages/Home'; 
+import Event from './Pages/Events';
+import Annual from './Pages/Annual';
 import Team from './components/my-navbar/Teams';
 import Videos from './components/my-navbar/Videos'; 
 import { BrowserRouter as Router, Switch,Route} from "react-router-dom";
 import SignUp from './components/my-navbar/SignUp';
 import Signin from './components/my-navbar/Signin';
+import Myfooter from './components/my-footer/myfooter';
 function App() {
   return (
     <Router>
@@ -43,7 +44,7 @@ function App() {
           </Route>
 
         </Switch>
-
+        <Myfooter/>
         
   
 
